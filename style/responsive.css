@@ -127,8 +127,9 @@
         .container_menu_element
         {
             position: fixed;
-            bottom: 0;
-            width: 100%;
+            top: 100px;
+            
+            width: 80%;
             height: 50%;
             right: 0;
             background-color: white;
@@ -146,8 +147,9 @@
         .visible_modal
             {
                 position: fixed;
+                top: 100px;
                 bottom: 0;
-                width: 100%;
+                width: 80%;
                 height: 50%;
                 right: 0;
                 background-color: white;
