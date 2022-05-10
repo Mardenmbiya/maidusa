@@ -3,6 +3,16 @@
 @media only screen and (max-width: 855px)
 
 {
+    .form_design{
+        width: 220px;
+        height: 40px;
+        border: none;
+        font-family: 'segoe ui';
+        font-size: 18px;
+        font-family: 400;
+        
+        
+    }
     .navigation_bar_container {
         position: fixed;
         width: 100%;
@@ -24,7 +34,7 @@
          
         }
           .container_logo img{
-              width: 60%;
+              width: 70%;
           }
         .container_search{
             position: absolute;
@@ -34,6 +44,7 @@
             display: flex;
             align-items: center;
             justify-content: center;
+            
         }
           .container_search_1
           {
@@ -49,7 +60,7 @@
             .container_search_icon
             {
                 position: relative;
-                width: 10%;
+                width: 15%;
                 height: 100%;
                 display: flex;
                 align-items: center;
