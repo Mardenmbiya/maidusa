@@ -126,11 +126,11 @@
             }
         .container_menu_element
         {
-            position: absolute;
-            top: 70px;
-            width: 20%;
-            height: 60%;
-            right: 5%;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            height: 50%;
+            right: 0;
             background-color: white;
             border: 0.5px solid #b7b4b4;
             border-radius: 8px;
@@ -145,11 +145,11 @@
         }
         .visible_modal
             {
-                position: absolute;
-                top: 70px;
-                width: 20%;
-                height: 60%;
-                right: 5%;
+                position: fixed;
+                bottom: 0;
+                width: 100%;
+                height: 50%;
+                right: 0;
                 background-color: white;
                 border: 0.5px solid #b7b4b4;
                 border-radius: 8px;
