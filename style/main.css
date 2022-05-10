@@ -154,6 +154,7 @@ input:focus{outline: none;}
         align-items: center;
         flex-direction: column;
         justify-content: space-between;
+        overflow: hidden;
         
 
     }
@@ -175,8 +176,12 @@ input:focus{outline: none;}
         width: 100%;
         height: 20%;
         cursor: pointer;
-        background-color: #416cb4;
+        
     }
+        .container_menu_element_profil:hover
+        {
+            background-color: #eaeff7;
+        }
         .container_menu_element_profil_1
         {
           position: absolute;
