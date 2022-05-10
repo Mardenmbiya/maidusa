@@ -128,9 +128,8 @@
         {
             position: fixed;
             top: 0;
-            
-            width: 80%;
-            height: 50%;
+            width: 70%;
+            height: 80%;
             right: 0;
             background-color: white;
             border: 0.5px solid #b7b4b4;
@@ -149,8 +148,8 @@
                 position: fixed;
                 top: 0;
                 bottom: 0;
-                width: 80%;
-                height: 50%;
+                width: 70%;
+                height: 80%;
                 right: 0;
                 background-color: white;
                 border: 0.5px solid #b7b4b4;
