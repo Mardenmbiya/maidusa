@@ -4,3 +4,7 @@ function showModal(){
     element.classList.toggle("visible_modal");
 
 }
+function closeModal(){
+     document.getElementById('menuinfo');
+    showModal.classList.remove('visible_modal');
+}
