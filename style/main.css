@@ -488,6 +488,7 @@ input:focus{outline: none;}
             .cont_afficheur_abonner img
             {
                 width: 20px;
+                padding-right: 6px;
             }
             .cont_afficheur_abonner:hover
             {
