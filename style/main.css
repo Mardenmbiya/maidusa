@@ -412,7 +412,7 @@ input:focus{outline: none;}
     margin-left: 250px;
     margin-top: 20px;
     width: 40%;
-    height: 500px;
+    height: fit-content;
     background-color: white;
     border: 0.05px solid #b7b4b4;
     border-radius: 8px;
@@ -477,13 +477,17 @@ input:focus{outline: none;}
                 height: fit-content;
                 right: 5px;
                 top: 20px;
-                font-size: 17px;
+                font-size: 15px;
                 font-weight: 500;
                 color: black;
                 cursor: pointer;
                 padding: 5px;
                 display: flex;
                 flex-direction: row-reverse;
+            }
+            .cont_afficheur_abonner img
+            {
+                width: 10px;
             }
             .cont_afficheur_abonner:hover
             {
@@ -493,6 +497,7 @@ input:focus{outline: none;}
         position: relative;
         width: 100%;
         height: fit-content;
+        cursor: pointer;
     }
         .cont_afficheur_images img
         {
