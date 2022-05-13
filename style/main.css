@@ -420,9 +420,11 @@ input:focus{outline: none;}
 
 }   
     .cont_afficheur_art_profil{
+        position: relative;
         width: 100%;
         height: 70px;
-        background-color: #f1f3f7;
+       
+        
         
     }
        .cont_afficheur_profil
@@ -436,9 +438,53 @@ input:focus{outline: none;}
            align-items: center;
            justify-content: center;
            border: 0.02px solid #b7b4b4;
+           cursor: pointer;
        }
             .cont_afficheur_profil img
             {
                 width: 100%;
             }
-            .cont_afficheur_pr
+            .cont_afficheur_nom
+            {
+                position: absolute;
+                width: 60%;
+                height: fit-content;
+                left: 75px;
+                top: 10px;
+                font-size: 15px;
+                font-weight: 500;
+                cursor: pointer;
+            }
+            .cont_afficheur_nom_admin
+            {
+                position: absolute;
+                width: 60%;
+                height: fit-content;
+                left: 75px;
+                top: 35px;
+                font-size: 15px;
+                font-weight: 400;
+                color: #3e64a7;
+                cursor: pointer;
+            }
+                .cont_afficheur_nom_admin img
+                {
+                    width: 4%;
+                }
+            .cont_afficheur_abonner{
+                position: absolute;
+                width: 20%;
+                height: fit-content;
+                right: 3px;
+                top: 20px;
+                font-size: 17px;
+                font-weight: 500;
+                color: black;
+                cursor: pointer;
+            }
+    .cont_afficheur_images{
+        position: relative;
+        width: 100%;
+        height: 40px;
+        background-color: #3e64a7;
+    }
