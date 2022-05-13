@@ -473,18 +473,28 @@ input:focus{outline: none;}
                 }
             .cont_afficheur_abonner{
                 position: absolute;
-                width: 20%;
+                width: fit-content;
                 height: fit-content;
-                right: 3px;
+                right: 5px;
                 top: 20px;
                 font-size: 17px;
                 font-weight: 500;
                 color: black;
                 cursor: pointer;
+                padding: 5px;
+                display: flex;
+                flex-direction: row-reverse;
+            }
+            .cont_afficheur_abonner:hover
+            {
+                background-color: #f5f8fd;
             }
     .cont_afficheur_images{
         position: relative;
         width: 100%;
-        height: 40px;
-        background-color: #3e64a7;
+        height: fit-content;
     }
+        .cont_afficheur_images img
+        {
+            width: 100%;
+        }
