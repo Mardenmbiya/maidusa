@@ -307,7 +307,7 @@ input:focus{outline: none;}
       }
       .button_1:hover
       {
-        background-color: #2e518d;
+        background-color: #3e64a7;
       }
    .container_mag_12
    {
@@ -373,14 +373,19 @@ input:focus{outline: none;}
     margin-left: 250px;
     margin-top: 20px;
     width: 40%;
-    height: 100px;
+    height: 85px;
     background-color: white;
     border: 0.05px solid #b7b4b4;
     border-radius: 8px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 4px;
+    display: flex;
+    flex-direction: row;
+    font-weight: 500;
     
 }
    .container_mag_2 img
    {
-       width: 20px;
+       height: 20px;
        padding: 4px;
    }
