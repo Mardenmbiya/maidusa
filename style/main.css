@@ -511,3 +511,11 @@ input:focus{outline: none;}
         height: 30px;
         background-color: white;
     }
+        .titre_1{
+            position: relative;
+            width: 100%;
+            height: fit-content;
+            padding: 4px;
+            font-size: 17px;
+            font-weight: 550;
+        }
