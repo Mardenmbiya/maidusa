@@ -389,3 +389,16 @@ input:focus{outline: none;}
        height: 20px;
        padding: 4px;
    }
+.cont_afficheur_article
+{
+    position: relative;
+    margin-left: 250px;
+    margin-top: 20px;
+    width: 40%;
+    height: 85px;
+    background-color: white;
+    border: 0.05px solid #b7b4b4;
+    border-radius: 8px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
