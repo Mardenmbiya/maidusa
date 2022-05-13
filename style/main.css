@@ -382,4 +382,5 @@ input:focus{outline: none;}
    .container_mag_2 img
    {
        width: 20px;
+       padding: 4px;
    }
