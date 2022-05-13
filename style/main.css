@@ -275,3 +275,12 @@ input:focus{outline: none;}
             font-size: 18px;
 
         }
+.container_mag_1
+{
+    position: relative;
+    margin-left: 250px;
+    margin-top: 80px;
+    width: 40%;
+    height: 250px;
+    background-color: #416cb4;
+}

@@ -9,6 +9,7 @@
 </head>
 <body>
     <?php include('bare_navigation.html'); ?>
+    <?php include('Magazine_detenus.html'); ?>
     
 </body>
 </html>
