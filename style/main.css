@@ -422,5 +422,22 @@ input:focus{outline: none;}
     .cont_afficheur_art_profil{
         width: 100%;
         height: 70px;
-        background-color: #f1f3f7;
+       
+        
     }
+       .cont_afficheur_profil
+       {
+           position: absolute;
+           width: 50px;
+           height: 50px;
+           top: 10px;
+           left: 15px;
+           display: flex;
+           align-items: center;
+           justify-content: center;
+           border: 0.02px solid #b7b4b4;
+       }
+            .cont_afficheur_profil img
+            {
+                width: 100%;
+            }
