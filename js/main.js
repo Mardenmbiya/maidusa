@@ -19,5 +19,6 @@ function button_ab() {
 
 
 function imageLike(){
-    var y = document.getElementById('')
+    var y = document.getElementById('imgLike2') = style.display="block";
+    
 }
