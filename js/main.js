@@ -18,3 +18,6 @@ function button_ab() {
   }
 
 
+function imageLike(){
+    var y = document.getElementById('')
+}
