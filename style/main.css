@@ -8,7 +8,7 @@ body{
 
 }
 
-input, select,option,textarea{
+input, select,option,textarea,button{
 	border: none;
 	border-color: transparent;
 	width: 100%;
@@ -16,7 +16,7 @@ input, select,option,textarea{
 	background-color: inherit;
 	font-size: 100%;
 }
-input:focus{outline: none;}
+input, button:focus{outline: none;}
 .color_1{color: #416cb4;}
 .color_2{color: #ffffff;}
 .bg_color_1{background-color: #416cb4;}
@@ -123,7 +123,7 @@ input:focus{outline: none;}
         }
             .container_icon_1 img
             {
-                width: 30%;
+                width: 28%;
             }
             .container_icon_1:hover
             {
@@ -142,13 +142,12 @@ input:focus{outline: none;}
         }
     .container_menu_element
     {
-        position: absolute;
+        position: fixed;
         top: 70px;
         width: 20%;
         height: 60%;
         right: 5%;
-        background-color: white;
-        border: 0.5px solid #b7b4b4;
+        border: 0.05px solid #d1cece;
         border-radius: 8px;
         visibility: hidden;
         display: flex;
@@ -167,7 +166,7 @@ input:focus{outline: none;}
             height: 60%;
             right: 5%;
             background-color: white;
-            border: 0.5px solid #b7b4b4;
+            border: 0.05px solid #d1cece;
             border-radius: 8px;
             visibility: visible;
         }
@@ -204,7 +203,7 @@ input:focus{outline: none;}
             align-items: center;
             justify-content: center;
             overflow: hidden;
-            border: 1px solid #eaeff7;
+            border: 0.05px solid #d1cece;
             
         }
             .container_profil_1 img
@@ -224,7 +223,7 @@ input:focus{outline: none;}
         }
         .container_name_1
         {
-            font-size: 18px;
+            font-size: 17px;
             font-family: 'segoe ui';
             font-weight: 500;
             color: black;
@@ -273,7 +272,7 @@ input:focus{outline: none;}
             align-items: center;
             font-family: 'segoe ui';
             font-weight: 500;
-            font-size: 18px;
+            font-size: 15px;
 
         }
 .container_mag_1
@@ -376,7 +375,7 @@ input:focus{outline: none;}
     width: 40%;
     height: fit-content;
     background-color: white;
-    border: 0.05px solid #b7b4b4;
+    border: 0.05px solid #d1cece;
     border-radius: 8px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 4px 0 4px 0;
@@ -384,6 +383,7 @@ input:focus{outline: none;}
     flex-direction: row;
     font-weight: 500;
     color: rgb(99, 99, 99);
+    font-size: 15px;
     
 }
    .container_mag_2 img
@@ -414,7 +414,7 @@ input:focus{outline: none;}
     width: 40%;
     height: fit-content;
     background-color: white;
-    border: 0.05px solid #b7b4b4;
+    border: 0.05px solid #d1cece;
     border-radius: 8px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-bottom: 10px;
@@ -423,7 +423,7 @@ input:focus{outline: none;}
     .cont_afficheur_art_profil{
         position: relative;
         width: 100%;
-        height: 65px;
+        height: 60px;
        
         
         
@@ -431,14 +431,14 @@ input:focus{outline: none;}
        .cont_afficheur_profil
        {
            position: absolute;
-           width: 45px;
-           height: 45px;
+           width: 40px;
+           height: 40px;
            top: 10px;
            left: 15px;
            display: flex;
            align-items: center;
            justify-content: center;
-           border: 0.02px solid #b7b4b4;
+           border: 0.05px solid #d1cece;
            cursor: pointer;
        }
             .cont_afficheur_profil img
@@ -450,7 +450,7 @@ input:focus{outline: none;}
                 position: absolute;
                 width: 60%;
                 height: fit-content;
-                left: 75px;
+                left: 70px;
                 top: 10px;
                 font-size: 15px;
                 font-weight: 500;
@@ -461,11 +461,11 @@ input:focus{outline: none;}
                 position: absolute;
                 width: 60%;
                 height: fit-content;
-                left: 75px;
-                top: 35px;
-                font-size: 15px;
+                left: 70px;
+                top: 33px;
+                font-size: 13px;
                 font-weight: 400;
-                color: #3e64a7;
+                color: gray;
                 cursor: pointer;
             }
                 .cont_afficheur_nom_admin img
@@ -477,24 +477,19 @@ input:focus{outline: none;}
                 width: fit-content;
                 height: fit-content;
                 right: 5px;
-                top: 20px;
-                font-size: 15px;
+                top: 16px;
+                font-size: 17px;
                 font-weight: 500;
-                color: black;
+                border-radius: 2px;
+                color:black;
                 cursor: pointer;
                 padding: 5px;
                 display: flex;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
                 flex-direction: row-reverse;
+                border: 0.05px solid #d1cece;
             }
-            .cont_afficheur_abonner img
-            {
-                width: 20px;
-                padding-right: 6px;
-            }
-            .cont_afficheur_abonner:hover
-            {
-                background-color: #f5f8fd;
-            }
+           
     .cont_afficheur_images{
         position: relative;
         width: 100%;
@@ -545,15 +540,17 @@ input:focus{outline: none;}
            position: relative;
            display: flex;
            align-items: center;
-           font-size: 16px;
+           font-size: 14px;
            font-weight: 500;
            margin-left: 5px;
            margin-right: 10px;
+           color: gray;
+           cursor: pointer;
            
        }
            .cont_reaction1 img
            {
-               width: 20px;
+               width: 18px;
                margin-right: 7px;
                cursor: pointer;
            }
@@ -562,14 +559,14 @@ input:focus{outline: none;}
                position: absolute;
                display: flex;
                align-items: center;
-               font-size: 16px;
+               font-size: 15px;
                font-weight: 500;
                right: 2px;
                
            }
            .cont_reaction2 img
            {
-               width: 20px;
+               width: 18px;
                margin-right: 7px;
                cursor: pointer;
            }
