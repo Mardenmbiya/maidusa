@@ -18,6 +18,6 @@ function button_ab() {
   }
 
 
-  $("#infoToggler").click(function() {
+  $("imgLike").click(function() {
     $(this).find('img').toggle();
 });​
