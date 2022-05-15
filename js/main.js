@@ -18,7 +18,6 @@ function button_ab() {
   }
 
 
-function imageLike(){
-    var y = document.getElementById('imgLike2') = style.display="block";
-    
-}
+  $("#infoToggler").click(function() {
+    $(this).find('img').toggle();
+});​
