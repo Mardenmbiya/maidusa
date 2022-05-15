@@ -17,10 +17,10 @@ function button_ab() {
     }
   }
 
-  function image_like() {
-    if (document.getElementById("img_like").src == "images/icons/heart-free-icon-font (1).png"){
-        document.getElementById("img_like").src = "images/icons/heart-free-icon-font.png";
+  function imageLike() {
+    if (document.getElementById("imgLike").src == "images/icons/heart-free-icon-font (1).png"){
+        document.getElementById("imgLlike").src = "images/icons/heart-free-icon-font.png";
     } else {
-        document.getElementById("img_like").src = "images/icons/heart-free-icon-font (1).png";
+        document.getElementById("imgLlike").src = "images/icons/heart-free-icon-font (1).png";
     }
 }
