@@ -18,6 +18,3 @@ function button_ab() {
   }
 
 
-  $("imgLike").click(function() {
-    $(this).find('img').toggle();
-});​
