@@ -491,7 +491,7 @@ input, button:focus{outline: none;}
             }
             .cont_afficheur_abonner:hover
             {
-                
+                text-decoration: underline;
             }
            
     .cont_afficheur_images{
@@ -552,6 +552,10 @@ input, button:focus{outline: none;}
            cursor: pointer;
            
        }
+       .cont_reaction1:hover, .cont_reaction2:hover
+       {
+          text-decoration: underline;
+       }
            .cont_reaction1 img
            {
                width: 18px;
@@ -566,6 +570,7 @@ input, button:focus{outline: none;}
                font-size: 15px;
                font-weight: 500;
                right: 2px;
+               cursor: pointer;
                
            }
            .cont_reaction2 img
