@@ -481,13 +481,17 @@ input, button:focus{outline: none;}
                 font-size: 17px;
                 font-weight: 500;
                 border-radius: 2px;
-                color:black;
+                color:white;
                 cursor: pointer;
                 padding: 5px;
                 display: flex;
                 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
                 flex-direction: row-reverse;
-                border: 0.05px solid #d1cece;
+                color: #416cb4;
+            }
+            .cont_afficheur_abonner:hover
+            {
+                
             }
            
     .cont_afficheur_images{
