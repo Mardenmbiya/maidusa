@@ -18,12 +18,11 @@ function button_ab() {
   }
 
 
-function imageLike(){
-    var y = document.getElementById("imgLike");
-    if (y.src === "images/icons/heart-free-icon-font (1).png"){
-        y.src =  "images/icons/heart-free-icon-font.png";
+
+function imageLike() {
+    var img1 = "images/icons/heart-free-icon-font (1).png",
+        img2 = "images/icons/heart-free-icon-font.png";
+    var imgElement = document.getElementById('imgLike');
     
-    } else {
-        y.src= "images/icons/heart-free-icon-font (1).png";
-    }
-}
+    imgElement.src = (imgElement.src === img1)? img2 : img1;
+ }
