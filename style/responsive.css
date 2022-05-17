@@ -3,6 +3,14 @@
 @media only screen and (max-width: 950px)
 
 {
+    body{
+        margin: 0;
+        padding: 0;
+        background-color:#e6e6e6;
+        font-weight: normal;
+        font-size: inherit;
+    
+    }
     .form_design{
         width: 220px;
         height: 40px;
