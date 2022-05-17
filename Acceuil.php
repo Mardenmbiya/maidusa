@@ -10,7 +10,7 @@
 <body>
     <?php include('bare_navigation.html'); ?>
     <?php include('Magazine_detenus.html'); ?>
-    <?php include('Afficheur_article.html'); ?>
+   
     
 </body>
 </html>
