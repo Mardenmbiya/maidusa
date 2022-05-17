@@ -569,6 +569,7 @@ input, button:focus{outline: none;}
        .cont_reaction1
        {
            position: relative;
+           
            display: flex;
            align-items: center;
            font-size: 14px;
