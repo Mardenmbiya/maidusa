@@ -467,6 +467,7 @@ input, button:focus{outline: none;}
            justify-content: center;
            border: 0.05px solid #d1cece;
            cursor: pointer;
+           overflow: hidden;
        }
             .cont_afficheur_profil img
             {
