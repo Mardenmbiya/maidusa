@@ -7,6 +7,9 @@ body{
 	font-size: inherit;
 
 }
+a{
+    text-decoration: none;
+}
 
 input, select,option,textarea,button{
 	border: none;
