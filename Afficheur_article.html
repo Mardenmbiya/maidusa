@@ -58,16 +58,14 @@
     </div>
     <script type="text/javascript">
         function imageLike(){
-            if (document.getElementById("imgLike").src.endsWith('icon2.png') == true)  //Comparison
-            { 
-                 document.getElementById("imgLike").src = "icon1.png"; //assignment  
+           var u = document.getElementById("imgLike").src;
+           if (u.indexOf("icon2.png")!=
+           -1){
+               document.getElementById("imgLike").src = "icon1.png";
 
-             } 
-             else if (document.getElementById("imgLike").src.endsWith('icon2.png') == true) 
-             { 
-                document.getElementById("imglike").src = "icon2.png"; 
-                
-            }
+           }else { 
+            document.getElementById("imgLike").src = "icon2.png";
+           }
         }
     </script>
 

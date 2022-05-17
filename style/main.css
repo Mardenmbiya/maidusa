@@ -104,13 +104,39 @@ input, button:focus{outline: none;}
     .container_icons
     {
         position: absolute;
-        width: 40%;
+        width: 35%;
         height: 100%;
-        left: 55%;
+        left: 50%;
         display: flex;
         align-items: center;
         justify-content: space-between;
+      
     }
+    .container_icons_m
+    {
+        position: absolute;
+        width: 8%;
+        height: 100%;
+        left: 85%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+        .container_icons_mi 
+        {
+            position: relative;
+            width: 70%;
+            height: 80%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+        }
+        .container_icons_mi img
+        {
+            width: 30%;
+        }
         .container_icon_1
         {
             position: relative;
@@ -125,7 +151,7 @@ input, button:focus{outline: none;}
             {
                 width: 28%;
             }
-            .container_icon_1:hover
+            .container_icon_1:hover,  .container_icons_mi:hover
             {
                 background-color: #f5f8fd;
             }
@@ -160,7 +186,7 @@ input, button:focus{outline: none;}
     }
     .visible_modal
         {
-            position: absolute;
+            position: fixed;
             top: 70px;
             width: 20%;
             height: 60%;
@@ -169,6 +195,7 @@ input, button:focus{outline: none;}
             border: 0.05px solid #d1cece;
             border-radius: 8px;
             visibility: visible;
+            z-index: 10;
         }
     .container_menu_element_profil
     {
