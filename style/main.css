@@ -634,7 +634,7 @@ input, button:focus{outline: none;}
 }
     .container_back img
     {
-        width: 60%;
+        width: 55%;
         cursor: pointer;
     }
 .titre_page
@@ -648,7 +648,15 @@ input, button:focus{outline: none;}
     align-items: center;
     justify-content: start;
     font-size: 18px;
-    font-weight:500;
+    font-weight:600;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
+}
+.container_profil_magazine1
+{
+    position: fixed;
+    width: 40%;
+    top: 50px;
+    height: 500px;
+    background-color: aqua;
 }
