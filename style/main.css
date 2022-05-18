@@ -41,8 +41,7 @@ input, button:focus{outline: none;}
     height: 70px;
     top: 0;
     z-index: 5;
-   
-    
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
     
 }
   .container_logo{
@@ -579,7 +578,7 @@ input, button:focus{outline: none;}
            font-weight: 500;
            margin-left: 5px;
            margin-right: 10px;
-           color: gray;
+           color: #808080;
            cursor: pointer;
            
        }
