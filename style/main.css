@@ -661,4 +661,5 @@ input, button:focus{outline: none;}
     left: 5px;
     border-radius: 8px;
     background-color: white;
+    border: 0.05px solid #d1cece;
 }
