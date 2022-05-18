@@ -666,5 +666,24 @@ input, button:focus{outline: none;}
     .container_profil_magazine11
     {
        position: relative;
-       w
+       width: 100%;
+       height: 250px;
+       display: flex;
+       align-items:center ;
     }
+       .cont_profil_mag_image
+       {
+           position: absolute;
+           width: 150px;
+           height: 150px;
+           left: 3%;
+           overflow: hidden;
+           align-items: center;
+           justify-content: center;
+           border: 0.05px solid #d1cece;
+           
+        }
+            .cont_profil_mag_image img
+            {
+                width: 100%;
+            }
