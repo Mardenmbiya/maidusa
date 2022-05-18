@@ -626,7 +626,7 @@ input, button:focus{outline: none;}
 }
 .container_back
 {
-    position: relative;
+    position: absolute;
     width: 5%;
     height: 100%;
     margin-left: 0;
@@ -639,3 +639,18 @@ input, button:focus{outline: none;}
         width: 60%;
         cursor: pointer;
     }
+.titre_page
+{
+    position: absolute;
+    width: 15%;
+    left: 5%;
+    height: 100%;
+    margin-left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    font-size: 18px;
+    font-weight:500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
