@@ -656,7 +656,9 @@ input, button:focus{outline: none;}
 {
     position: fixed;
     width: 40%;
-    top: 50px;
+    top: 80px;
     height: 500px;
-    background-color: aqua;
+    left: 5px;
+    border-radius: 8px;
+    background-color: white;
 }
