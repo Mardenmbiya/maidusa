@@ -624,3 +624,18 @@ input, button:focus{outline: none;}
 
 
 }
+.container_back
+{
+    position: relative;
+    width: 5%;
+    height: 100%;
+    margin-left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+    .container_back img
+    {
+        width: 60%;
+        cursor: pointer;
+    }
