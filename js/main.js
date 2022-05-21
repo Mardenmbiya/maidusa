@@ -5,6 +5,10 @@ function showModal(){
 
 }
 
+function showModal2(){
+  document.getElementById('container_search').style.display="block";
+  
+}
 
 function button_ab() {
     var x = document.getElementById("btn_ab");

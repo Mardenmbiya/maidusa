@@ -8,8 +8,21 @@
     <link rel="shortcut icon" href="images/logo-1.png" type="image/x-icon">
 </head>
 <body>
+    <div class="container_mag_acceuil">
+       <span class="cont_profil_mag_txt"> Bienvenue sur Maidusa Social.</span>
+       <span class="cont_profil_mag_txt2">Votre réseau social professionnel de réseautage et de partage du contenus.</span>
+       <div class="cont_buttons_profil">
+                <div class="button_4">Se connecter</div>
+                <div class="button_3">S'inscrire</div>
+        </div> 
+
+    </div>
+    <div class="container_mag_acceuil2">
+    Articles suggerés et articles des magazines aux quels vous êtes abonnés.
+
+    </div>
+
     <?php include('bare_navigation.html'); ?>
-    <?php include('Magazine_detenus.html'); ?>
    <?php include('Afficheur_article.html'); ?>
    <?php include('Afficheur_article_audio.html'); ?>
 </body>

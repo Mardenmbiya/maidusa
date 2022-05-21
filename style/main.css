@@ -11,7 +11,7 @@ a, a:hover, a:focus, a:active {
     text-decoration: none;
     color: inherit;
     }
-input, select,option,textarea,button{
+input, select,option,button{
 	border: none;
 	border-color: transparent;
 	width: 100%;
@@ -19,7 +19,19 @@ input, select,option,textarea,button{
 	background-color: inherit;
 	font-size: 100%;
 }
-input, button:focus{outline: none;}
+textarea{
+    font-weight: 400;
+ font-size: 15px;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+textarea::placeholder
+{
+ font-weight: 400;
+ font-size: 15px;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+input, button,textarea:focus{outline: none;}
 .color_1{color: #416cb4;}
 .color_2{color: #ffffff;}
 .bg_color_1{background-color: #416cb4;}
@@ -35,16 +47,16 @@ input, button:focus{outline: none;}
     
 }
 .txt1{
-    padding: 8px;
+    padding: 10px;
     font-size: 17px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 500;
 }
 .txt2{
-    padding: 8px;
+    padding: 10px;
     font-size: 17px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: 400;
+    font-weight: fit-content;
 }
 
 .navigation_bar_container {
@@ -52,7 +64,7 @@ input, button:focus{outline: none;}
     width: 100%;
     height: 70px;
     top: 0;
-    z-index: 5;
+    z-index: 6;
     box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
     
 }
@@ -316,6 +328,20 @@ input, button:focus{outline: none;}
             font-size: 15px;
 
         }
+.container_mag_acceuil
+{
+    position: relative;
+    margin-left: 250px;
+    margin-top: 80px;
+    width: 40%;
+    height: fit-content;
+    background-color: white;
+    border-radius: 8px;
+    border: 0.5px solid #d1cece;
+    display: flex;
+    flex-direction: column;
+    
+}
 .container_mag_1
 {
     position: relative;
@@ -333,10 +359,11 @@ input, button:focus{outline: none;}
        background-color: transparent;
        display: flex;
        align-items: center;
+      
    }
       .button_1
       {
-          position: absolute;
+          position: relative;
           background-color: #416cb4;
           padding: 8px 15px 8px 15px;
           border-radius: 25px;
@@ -356,14 +383,14 @@ input, button:focus{outline: none;}
          height: fit-content;
          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
           font-weight: 500;
-          color: white;
+          color: black;
           cursor: pointer;
           font-size: 15px;
           margin: 10px;
           padding: 6px 14px 6px 14px;
-          border: 0.5px solid #d1cece;
+          border: 0.5px solid black;
           border-radius: 25px;
-          background-color: #416cb4;
+          background-color: transparent;
           display: flex;
           
           
@@ -371,7 +398,8 @@ input, button:focus{outline: none;}
       }
       .button_2:hover
       {
-        background-color: #3e64a7;
+        background-color: black;
+        color: white;
       }
       .button_3
       {
@@ -391,6 +419,29 @@ input, button:focus{outline: none;}
       .button_3:hover
       {
         background-color: black;
+        color: white;
+      }
+      .button_4
+      {
+         position: relative;
+         height: fit-content;
+         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+          font-weight: 500;
+          color: white;
+          cursor: pointer;
+          font-size: 15px;
+          margin: 10px;
+          padding: 6px 14px 6px 14px;
+          border-radius: 25px;
+          background-color: #416cb4;
+          display: flex;
+          
+          
+
+      }
+      .button_4:hover
+      {
+        background-color: #3e64a7;
         color: white;
       }
    .container_mag_12
@@ -503,6 +554,20 @@ input, button:focus{outline: none;}
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-bottom: 10px;
 
+} 
+.cont_afficheur_article_2
+{
+    position: relative;
+    margin-left: 45%;
+    margin-top: 5px;
+    width: 40%;
+    height: fit-content;
+    background-color: white;
+    border: 0.05px solid #d1cece;
+    border-radius: 8px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 10px;
+
 }   
     .cont_afficheur_art_profil{
         position: relative;
@@ -584,6 +649,8 @@ input, button:focus{outline: none;}
         width: 100%;
         height: fit-content;
         cursor: pointer;
+        max-height: 500px;
+        overflow: hidden;
     }
         .cont_afficheur_images img
         {
@@ -676,6 +743,10 @@ input, button:focus{outline: none;}
     font-weight: 600;
 
 
+}
+.cont_audio_article audio
+{
+  width: 100%;
 }
 .container_back
 {
@@ -810,7 +881,7 @@ input, button:focus{outline: none;}
     {
        position: relative;
        width: 100%;
-       height: 250px;
+       height: fit-content;
        
       
     }
@@ -823,3 +894,198 @@ input, button:focus{outline: none;}
             align-items: center;
            
         }
+.cont_profil_mag_txt
+{
+   position: relative;
+   font-size: 28px;
+   font-weight: 650;
+   padding: 8px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.cont_profil_mag_txt2
+{
+   position: relative;
+   font-size: 16px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   padding: 8px;
+   font-weight: 400;
+   color: black;
+
+}
+.container_mag_acceuil2
+{
+    position: relative;
+    margin-left: 250px;
+    margin-top: 10px;
+    width: 40%;
+    height: 80px;
+    background-color: transparent;
+    border-radius: 8px;
+    
+    display: flex;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-size: 105%;
+   font-weight: 500;
+    
+}
+.container_profil_magazine13
+{
+    position: relative;
+    width: 40%;
+    height: 80px;
+    margin-top: 80px;
+    margin-left: 45%;
+   display: flex;
+    align-items: center;
+    font-size: 120%;
+    font-weight: 650;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container_recherche
+{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0,0.7);
+    top: 0;
+    z-index: 5;
+    display: none;
+   
+}
+   .container_recherche1
+   {
+      position: absolute;
+      width: 30%;
+      height: 300px;
+      background-color: white;
+      left: 20%;
+      border-radius: 8px;
+      top: 60px;
+      
+   }
+.container_image_complete
+{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    top: 0;
+    z-index: 5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+   .container_img
+   {
+    position: absolute;
+    width: 40%;
+    height: fit-content;
+    top: 70px;
+   } 
+   .container_img img
+   {
+       width: 100%;
+   }
+.cont_afficheur_article2
+{
+    position: fixed;
+    margin-left: 10px;
+    margin-top: px;
+    width: 40%;
+    height: fit-content;
+    background-color: white;
+    border: 0.05px solid #d1cece;
+    border-radius: 8px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 10px;
+
+}
+.cont_afficheur_article3
+{
+    position: relative;
+    margin-left: 42%;
+    margin-top: 90px;
+    width: 50%;
+    height: fit-content;
+    background-color: white;
+    border: 0.05px solid #d1cece;
+    border-radius: 8px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 10px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+
+}
+.cont_afficheur_article4
+{
+    position: relative;
+    margin-left: 42%;
+    margin-top: 20px;
+    width: 50%;
+    height: fit-content;
+    background-color: white;
+    border: 0.05px solid #d1cece;
+    border-radius: 8px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 10px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+
+}
+  .commentaire
+  {
+      position: relative;
+      width: 100%;
+      height: fit-content;
+      padding-bottom: 20px;
+     
+  }
+   .commentaire textarea
+   {
+       width: 98%;
+       height: 80px;
+       border-radius: 8px;
+       border: 0.05px solid #d1cece;
+       background-color: #eaeff7;
+   }
+    .commentaire_1
+    {
+        position: relative;
+        width: 100%;
+        height: fit-content;
+        
+        display: flex;
+        font-weight: 500;
+        align-items: center;
+    } 
+        .commentaire_img
+        {
+            position: relative;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 5px;
+
+        }
+           .commentaire_img img
+           {
+               width: 100%;
+           }
+           .commentaire_send
+           {
+               position: relative;
+               width: 20%;
+               height: fit-content;
+               padding-bottom: 20px;
+               
+              
+           }
