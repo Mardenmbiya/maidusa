@@ -23,6 +23,7 @@
     </div>
 
     <?php include('bare_navigation.html'); ?>
+    <?php include('suggestion.html'); ?>
    <?php include('Afficheur_article.html'); ?>
    <?php include('Afficheur_article_audio.html'); ?>
 </body>
