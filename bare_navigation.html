@@ -25,8 +25,9 @@
             <div class="container_icon_1"><img src="images/icons/home-free-icon-font.png" alt=""></div>
             <div class="container_icon_1"><img src="images/icons/browser-free-icon-font.png" alt=""></div>
             <div class="container_icon_1"><img src="images/icons/briefcase-free-icon-font.png" alt=""></div>
-            <div class="container_icon_1"><div class="new_message_container"></div>
-            <img src="images/icons/bell-free-icon-font.png" alt="">
+           <div class="container_icon_1">
+            <a href="notification.html"><div class="new_message_container"></div>
+                <img src="images/icons/bell-free-icon-font.png" alt=""></a>
             </div>
             <div class="container_icon_1"><img src="images/icons/envelope-free-icon-font2.png" alt=""></div>
           
@@ -77,7 +78,15 @@
 
     </nav>
     <nav class="container_recherche" id="container_search">
-        <div class="container_recherche1"></div>
+        <div class="container_recherche1">
+            <div class="container_search_form_show">
+                <div class="container_search_icon"><img src="images/icons/search-free-icon-font.png" alt=""></div>
+                <div class="container_search_form_show" onclick="showModal2()">
+                    <form action="">
+                        <input type="search" placeholder="Recherche..." name="" id="" class="form_design" >
+                    </form>
+                </div>
+                <div class="txt2" style="cursor: pointer;" onclick="closeModal()">Annuler</div>
 
     </nav>
     <script src="js/main.js">

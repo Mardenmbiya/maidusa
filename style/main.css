@@ -20,10 +20,18 @@ input, select,option,button{
 	font-size: 100%;
 }
 textarea{
-    font-weight: 400;
+font-weight: 400;
  font-size: 15px;
  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
+}
+input::placeholder
+{
+    font-size: 85%;
+}
+option select
+{
+    font-size: 85%;
 }
 textarea::placeholder
 {
@@ -45,6 +53,25 @@ input, button,textarea:focus{outline: none;}
     font-family: 400;
     
     
+}
+.form_design2{
+    width: 95%;
+    height: 40px;
+    border: none;
+    font-family: 'segoe ui';
+    font-size: 18px;
+    font-family: 400;
+    background-color: #f5f8fd;
+    border-radius: 4px;
+    border: 0.05px solid #d1cece;
+    margin-top: 8px;
+    
+    
+    
+}
+.hover_all:hover
+{
+    text-decoration: underline;
 }
 .txt1{
     padding: 10px;
@@ -969,20 +996,39 @@ input, button,textarea:focus{outline: none;}
     height: 100%;
     background-color: rgb(0, 0, 0,0.7);
     top: 0;
-    z-index: 5;
+    z-index: 10;
     display: none;
+  
    
 }
    .container_recherche1
    {
       position: absolute;
-      width: 30%;
+      width: 40%;
       height: 300px;
       background-color: white;
-      left: 20%;
+      left: 18%;
       border-radius: 8px;
-      top: 60px;
+      top: 5px;
+      overflow: hidden;
       
+   }
+   .container_search_form_show
+   {
+       position: relative;
+       width: 95%;
+       height:12% ;
+       display: flex;
+       align-items: center;
+       justify-content: start;
+       background-color: #f5f8fd;
+       margin: 5px;
+       padding: 2px;
+       border-radius: 25px;
+
+      
+       
+       
    }
 .container_image_complete
 {
@@ -1240,3 +1286,151 @@ margin-top: 10px;
     overflow: hidden;
     padding: 5px;
    }
+   .cont_noti_all
+   {
+      
+    position: relative;
+    margin-left: 10px;
+    margin-top: 80px;
+    width: 40%;
+    height: fit-content;
+    background-color: white;
+    border: 0.05px solid #d1cece;
+    border-radius: 8px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 10px;
+    overflow: hidden;
+    padding: 5px;
+    
+   }
+   .cont_noti_all_1
+   {
+      
+    position: relative;
+    margin-bottom: 10px;
+    overflow: hidden;
+    padding: 5px;
+    display: flex;
+   }
+   .cont_noti_img
+   {
+     position: relative;
+     width: 50px;
+     height: 50px;
+   }
+   .cont_noti_img img
+   {
+       width: 100%;
+   }
+   .cont_noti_txt
+   {
+       width: 80%;
+       height: fit-content;
+       
+   }
+.container_login_1
+{
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 0;
+}
+    .container_login_1 img
+    {
+        width: 80%;
+    }
+.container_login_3
+{
+ position: absolute;
+ width: 50%;
+ height:100% ;
+ right: 0;
+ display: flex;
+justify-content: center;
+}
+.container_login_2
+{
+ position: absolute;
+ width: 50%;
+ height:100% ;
+ right: 25%;
+ display: flex;
+justify-content: center;
+}
+.container_login_21
+{
+    position: absolute;
+    width: 60%;
+    height: fit-content;
+    background-color: white;
+    border: 0.05px solid #d1cece;
+    border-radius: 8px;
+    overflow: hidden;
+    top: 100px;
+}
+.container_login_211
+{
+    position: relative;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+    .container_login_211 img
+    {
+        height: 40%;
+       
+    }
+.container_login_212
+{
+    position: relative;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 7px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  
+
+} 
+    .cont_log1
+    {
+        position: relative;
+        width: 30%;
+        margin-top: 15px;
+    }
+   
+    .cont_log2
+    {
+        position: relative;
+        width: 100%;
+        margin-top: 15px;
+        cursor: pointer;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+       
+    }
+   
+   

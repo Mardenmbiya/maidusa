@@ -9,6 +9,9 @@ function showModal2(){
   document.getElementById('container_search').style.display="block";
   
 }
+function closeModal(){
+  document.getElementById('container_search').style.display="none";
+}
 
 function button_ab() {
     var x = document.getElementById("btn_ab");
