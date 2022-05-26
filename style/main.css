@@ -927,6 +927,7 @@ input, button,textarea:focus{outline: none;}
        position: relative;
        width: 100%;
        height: fit-content;
+       color: #416cb4;
        
       
     }
@@ -1253,6 +1254,23 @@ margin-top: 10px;
     cursor: pointer;
     
 }
+.cont_afficheur_parametre
+{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    padding: 5px;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    align-items: flex-start;
+    cursor: pointer;
+    
+}
+.cont_afficheur_parametre:hover
+{
+    background-color: #f5f8fd;
+}
 .cont_afficheur_vue_2:hover
 {
   background-color: #f5f8fd;
@@ -1355,11 +1373,12 @@ justify-content: center;
 .container_login_2
 {
  position: absolute;
- width: 50%;
+ width: 100%;
  height:100% ;
- right: 25%;
+ right: 0;
  display: flex;
 justify-content: center;
+
 }
 .container_login_21
 {
@@ -1432,5 +1451,118 @@ justify-content: center;
         justify-content: center;
        
     }
+.container_profil_general
+{
+    position: relative;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    border-bottom: 0.05px solid #d1cece;
+    
+    
+}
+   .cont_profil_general_1
+   {
+       position: relative;
+       width: 120px;
+       height: 120px;
+       background-color: #3e64a7;
+       margin-left: 10px;
+       overflow: hidden;
+       border-radius: 50%;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       border: 0.05px solid #d1cece;
+   }
+    .cont_profil_general_1 img
+    {
+        width: 100%;
+    }
+    .cont_profil_general_2
+   {
+       position: relative;
+       width: 70%;
+       height: fit-content;
+       margin-left: 15px;
+       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+       font-size: 20px;
+       font-weight: 650;
+       display: flex;
+       flex-direction: column;
+       justify-content: space-between;
+    }
+.container_profil_general_2
+{
+    position: relative;
+    width: 100%;
+    height: 250px;
+    
+}
+.cont_profil_general_3
+{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    font-size: 110%;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.elements_profil
+{
+    
+    cursor: pointer;
+    width: fit-content;
+    padding: 6px;
+    display: flex;
+    align-items: center;
+}
+  .elements_profil img
+  {
+      width: 20px;
+      margin-left: 5px;
+      margin-right: 5px;
+  }
+.cont_mag_profile
+{
+    position: relative;
+    margin-left: 2%;
+    width: 96%;
+    height: 220px;
+    display: flex;
+    align-items: center;
    
-   
+}
+.cont_affiche_bio
+{
+    position: relative;
+    margin-left: 45%;
+    margin-top: 5px;
+    width: 40%;
+    padding: 4px;
+    height: fit-content;
+    background-color: white;
+    border: 0.05px solid #d1cece;
+    border-radius: 8px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 10px;
+
+} 
+.cont_affiche_bio_2
+{
+    position: relative;
+    margin-left: 45%;
+    margin-top: 80px;
+    width: 40%;
+    padding: 4px;
+    height: fit-content;
+    background-color: white;
+    border: 0.05px solid #d1cece;
+    border-radius: 8px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 10px;
+
+} 

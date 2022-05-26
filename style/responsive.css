@@ -743,4 +743,43 @@ align-items: center;
         display:none;
         
     }
+.container_login_1{
+    display: none;
+}
+.container_login_3
+{
+ position: absolute;
+ width: 100%;
+ height:100% ;
+ right: 0;
+ display: flex;
+justify-content: center;
+}
+.container_login_21
+{
+    position: absolute;
+    width: 95%;
+    height: fit-content;
+    background-color: white;
+    border: 0.05px solid #d1cece;
+    border-radius: 8px;
+    overflow: hidden;
+    top: 100px;
+}
+.container_login_211
+{
+    position: relative;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
 }
