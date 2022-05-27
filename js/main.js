@@ -23,5 +23,21 @@ function button_ab() {
      
     }
   }
-
-
+function showmodal3(){
+  document.getElementById("container_modd").style.display="block";
+}
+function closemodal3(){
+  document.getElementById("container_modd").style.display="none";
+}
+function showmodal4(){
+  document.getElementById("container_modd2").style.display="block";
+}
+function closemodal4(){
+  document.getElementById("container_modd2").style.display="none";
+}
+function showmodal5(){
+  document.getElementById("container_modd3").style.display="block";
+}
+function closemodal5(){
+  document.getElementById("container_modd3").style.display="none";
+}
