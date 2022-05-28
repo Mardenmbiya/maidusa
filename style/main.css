@@ -32,7 +32,7 @@ input::placeholder
 }
 option select
 {
-    font-size: 85%;
+    font-size: 15px;
 }
 select option
 {
