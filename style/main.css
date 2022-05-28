@@ -34,6 +34,10 @@ option select
 {
     font-size: 85%;
 }
+select option
+{
+  font-size: 13px;
+}
 textarea::placeholder
 {
  font-weight: 400;
