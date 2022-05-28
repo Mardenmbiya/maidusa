@@ -22,8 +22,8 @@
             </div>
         </div>
         <div class="container_icons">
-            <div class="container_icon_1"><img src="images/icons/home-free-icon-font.png" alt=""></div>
-            <div class="container_icon_1"><img src="images/icons/browser-free-icon-font.png" alt=""></div>
+            <a href="Acceuil.php"><div class="container_icon_1"><img src="images/icons/home-free-icon-font.png" alt=""></div></a>
+           <a href="Magazine.php"><div class="container_icon_1"><img src="images/icons/browser-free-icon-font.png" alt=""></div></a>
             <div class="container_icon_1"><img src="images/icons/briefcase-free-icon-font.png" alt=""></div>
             <div class="container_icon_1">
             <div class="new_message_container" ></div>
@@ -93,6 +93,16 @@
 
     </nav>
     <script src="js/main.js">
+     
+     function ChangeIcons(){
+         var linkIcon = document.location.href;
+         
+         if (linkIcon = URL('http://localhost/main/maidusa/Magazine.php')){
+             alert('hello');
+         }
+        
+     }
+
        
     </script>
     

@@ -212,12 +212,13 @@ input, button,textarea:focus{outline: none;}
         .container_icon_1
         {
             position: relative;
-            width: 15%;
-            height: 80%;
+            width: 70px;
+            height: 50px;
             display: flex;
             justify-content: center;
             align-items: center;
             cursor: pointer;
+           
         }
             .container_icon_1 img
             {
