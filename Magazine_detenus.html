@@ -7,11 +7,12 @@
     <title>Magazine_detenus</title>
     <link rel="stylesheet" href="style/main.css">
     <link rel="stylesheet" href="style/responsive.css">
+    <link rel="stylesheet" href="style/icomoon/style.css">
 </head>
 <body>
     <div class="container_mag_1">
         <div class="container_mag_11">
-            <div class="button_1">Créer un magazine</div>
+            <div class="button_1" onclick="showmodal6()">Créer un magazine</div>
             <div class="button_2">Rédiger un article</div>
         </div>
         <div class="container_mag_12">
@@ -41,16 +42,16 @@
     <div class="container_mag_3">
         Articles suggérés et articles des magazines aux quels vous êtes abonnés.
     </div>
-
-    <nav class="container_posteur" id="container_modd3">
+    
+    <nav class="container_modifier" id="container_modd4">
         <div class="container_modifier1">
-            <span class="txt3 cont_mod_0">Modifier le mot de passe
-            <i class="icon-close2" onclick="closemodal5()"></i>
+            <span class="txt3 cont_mod_0">Créer un nouveau Magazine
+            <i class="icon-close2" onclick="closemodal6()"></i>
             </span>
             <div class="cont_mod1">
                 <form action="">
-                    <input type="password" name="" placeholder="Ancien mot de passe" id="" class="form_design2">
-                    <input type="password" name="" placeholder="Nouveau mot de passe" id="" class="form_design2">
+                    <input type="text" name="" placeholder="Nom du magazine" id="" class="form_design2">
+                    <textarea type="text" name="" placeholder="Nouveau mot de passe" id="" class="form_design2"></textarea>
                     <input type="password" name="" id="" placeholder="Confirmer le Nouveau mot de passe" class="form_design2">
                  </form>
               </div>
