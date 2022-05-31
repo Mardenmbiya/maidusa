@@ -27,10 +27,10 @@ a, a:hover, a:focus, a:active {
 input, select,option,button{
 	border: none;
 	border-color: transparent;
-	width: 100%;
+	width: 100%
 	height: 100%;
 	background-color: inherit;
-	font-size: 100%
+	font-size: 100%;
 }
 textarea{
 font-weight: 400;
