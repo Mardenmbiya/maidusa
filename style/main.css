@@ -22,7 +22,7 @@ body::-webkit-scrollbar {
   }
 a, a:hover, a:focus, a:active {
     text-decoration: none;
-    color: inherit
+    color: inherit;
     }
 input, select,option,button{
 	border: none;
@@ -32,7 +32,7 @@ input, select,option,button{
 	background-color: inherit;
 	font-size: 100%;
 }
-textarea{
+textarea
 font-weight: 400;
  font-size: 15px;
  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
