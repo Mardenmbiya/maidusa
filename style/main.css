@@ -38,7 +38,7 @@ font-weight: 400;
  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 }
-input::placeholder
+input::placeholde
 {
     font-size: 85%;
 }
