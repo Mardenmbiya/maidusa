@@ -23,7 +23,7 @@ body::-webkit-scrollbar {
 a, a:hover, a:focus, a:active {
     text-decoration: none;
     color: inherit;
-    }
+    
 input, select,option,button{
 	border: none;
 	border-color: transparent;
