@@ -32,8 +32,8 @@ input, select,option,button{
 	background-color: inherit;
 	font-size: 100%;
 }
-textarea
-font-weight: 400;
+textarea{
+font-weight: 400
  font-size: 15px;
  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
