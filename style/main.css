@@ -1711,7 +1711,7 @@ justify-content: center;
 {
    position: absolute;
    width: 70%;
-   height: 500px;
+   height: fit-content;
    background-color: white;
    left: 15%;
    border-radius: 8px;

@@ -10,25 +10,7 @@
             <form action="">
                 <input type="text" name="" placeholder="Titre de l'article" id="" class="form_design2" >
                 <textarea type="text" name="" placeholder="Contenu de l'article..." id="" class="form_design2" style="height: 100px;"></textarea>
-                <select name="" id="" class="form_design2" placeholder="ke" style="height: 30px;">
-                    <option value="" disabled selected hidden style="font-size: 15px;">Catégorie du magazine</option>
-                    <option value="">Autres</option>
-                    <option value="">Cinéma</option>
-                    <option value="">Culture & Arts</option>
-                    <option value="">Divertissement</option>
-                    <option value="">Entreprise</option>
-                    <option value="">Famille</option>
-                    <option value="">Mode</option>
-                    <option value="">News</option>
-                    <option value="">Politique</option>
-                    <option value="">Religion</option>
-                    <option value="">Santé</option>
-                    <option value="">Science</option>
-                    <option value="">Sport</option>
-                   
-                  
-                    
-                </select>
+                <input type="text" name="" placeholder="Coller juste un lien YouTube" id="" class="form_design2" style="border: 1px solid firebrick" >
              </form>
         </div>
        
