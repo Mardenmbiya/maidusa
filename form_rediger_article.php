@@ -13,15 +13,16 @@
                 <input type="text" name="" placeholder="Coller juste un lien YouTube" id="" class="form_design2" style="border: 1px solid firebrick" >
              </form>
         </div>
+        <div class="cont_mod2" >Ajouter un paragraphe</div>
        
         <div class="cont_mod2">
             <label class="cont_imp" for="upl"> 
-                Importer une photo de couverture
+                Lier une photo ou vidéo
                 <input class="" type="file" id="upl" style="display:none;">
            </label>
         </div>
         <div class="cont_mod2">
-            <span class="button_1">Enregistrer</span>
+            <span class="button_1">Publier</span>
         </div>
        
        

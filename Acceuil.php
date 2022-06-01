@@ -12,7 +12,7 @@
        <span class="cont_profil_mag_txt"> Bienvenue sur Maidusa Social.</span>
        <span class="cont_profil_mag_txt2">Votre réseau social professionnel de réseautage et de partage du contenus.</span>
        <div class="cont_buttons_profil">
-                <div class="button_4">Se connecter</div>
+                <a href="login"></a><div class="button_4">Se connecter</div>
                 <div class="button_3">S'inscrire</div>
         </div> 
 
