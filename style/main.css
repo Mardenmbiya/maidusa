@@ -41,7 +41,7 @@ font-weight: 400;
 input::placeholder
 {
     font-size: 85%;
-
+}
 option select
 {
     font-size: 15px;
