@@ -9,8 +9,10 @@
 </head>
 <body>
     <?php include('bare_navigation.html'); ?>
-    <?php include('Magazine_detenus.html'); ?>
+    <?php include('Magazine_detenus.php'); ?>
    <?php include('Afficheur_article.html'); ?>
    <?php include('Afficheur_article_audio.html'); ?>
+   <?php include('form_creation_magazine.php'); ?>
+   <?php include('form_rediger_article.php'); ?>
 </body>
 </html>
