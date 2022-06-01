@@ -18,7 +18,7 @@
 
     </div>
     <div class="container_mag_acceuil2">
-    Articles suggerés et articles des magazines aux quels vous êtes abonnés.
+    Articles suggerés et articles des magazines aux quels vous êtes abonnés.,,,
     </div>
 
     <?php include('bare_navigation.html'); ?>
