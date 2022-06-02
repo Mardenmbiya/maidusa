@@ -1724,3 +1724,17 @@ justify-content: center;
    align-items: center;
    
 }
+.cont_afficheur_offre
+{
+    position: relative;
+    margin-left: 250px;
+    margin-top: 20px;
+    width: 40%;
+    height: fit-content;
+    background-color: white;
+    border: 0.05px solid #d1cece;
+    border-radius: 8px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 10px;
+
+}

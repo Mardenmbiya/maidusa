@@ -14,5 +14,7 @@
    <?php include('Afficheur_article_audio.html'); ?>
    <?php include('form_creation_magazine.php'); ?>
    <?php include('form_rediger_article.php'); ?>
+
+  
 </body>
 </html>
