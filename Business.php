@@ -25,10 +25,12 @@
    <span class="txt6">Description des magazines entreprises et offres d'affaires/d'emploi</span>
    <div class="cont_afficheur_offre_2">
         <div class="cont_afficheur_offre_profil">
-             <div class="offre_profil"><img src="images/lecrae.jpg" alt=""></div>
+             <div class="offre_profil"><img src="images/logo-1.png" alt=""></div>
         </div>
         <div class="cont_afficheur_offre_profil2">
-
+             <Span class="txt7">Maidusa Network</Span>
+             <Span class="txt4">10k abonnés</Span>
+             
         </div>
    </div>
 </div>

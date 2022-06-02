@@ -124,10 +124,17 @@ input, button,textarea:focus{outline: none;}
 .txt6{
   
     padding: 0px 4px 0px 4px;
-    font-size: 13px;
+    font-size: 15px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 400;
     color: gray;
+}
+.txt7{
+    padding: 10px 0px 10px 0px;
+    font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    color: black;
 }
 .navigation_bar_container {
     position: fixed;
@@ -1771,7 +1778,6 @@ justify-content: center;
     position: relative;
     width: 30%;
     height: 100%;
-    background-color: firebrick;
     display: flex;
     justify-content: center;
    
@@ -1780,7 +1786,10 @@ justify-content: center;
 {
     position: relative;
     width: 70%;
-    height: 100%;
+    height: fit-content;
+   margin-top: 20px;
+    display: flex;
+    flex-direction: column;
    
 }
 .offre_profil
