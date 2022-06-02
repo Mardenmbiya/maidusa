@@ -22,7 +22,15 @@
 </div>
 <div class="cont_afficheur_offre">
    <span class="txt3">Profils professionelles</span>
-   <span class="txt2">Description des magazines entreprises et offres d'affaires/d'emploi</span>
+   <span class="txt6">Description des magazines entreprises et offres d'affaires/d'emploi</span>
+   <div class="cont_afficheur_offre_2">
+        <div class="cont_afficheur_offre_profil">
+             <div class="offre_profil"><img src="images/lecrae.jpg" alt=""></div>
+        </div>
+        <div class="cont_afficheur_offre_profil2">
+
+        </div>
+   </div>
 </div>
 
 </body>
