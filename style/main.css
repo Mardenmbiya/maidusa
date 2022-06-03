@@ -7,6 +7,15 @@ body{
 	font-size: inherit;
 
 }
+.dark{
+    margin: 0;
+    padding: 0;
+    background-color:#07101f;
+    font-weight: normal;
+	font-size: inherit;
+    color: white;
+
+}
 body::-webkit-scrollbar {
     width: 10px; 
   }
