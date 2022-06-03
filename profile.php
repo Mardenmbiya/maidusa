@@ -60,15 +60,16 @@
 
         </div>
     </div>
+    <?php include('form_creation_biographie.php'); ?>
     <div class="container_profil_magazine13">
-        <span class="button_1" onclick="">+ Ajouter une biographie</span>
+        <span class="button_1" onclick="showmodal8()">+ Ajouter une biographie</span>
 
     </div>
     <div class="cont_affiche_bio">
         <span class="txt3">Biographie</span> <br>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus, eos nulla perferendis dolor ipsam aliquid cupiditate dolorem facere rerum. Animi repudiandae eos at tempore blanditiis molestiae quo praesentium doloremque cupiditate. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et deserunt illum impedit expedita. Animi corporis excepturi, provident quia sit quas doloremque quod quidem accusamus perspiciatis! Alias beatae perspiciatis voluptatum expedita?
     </div>
-
-    <?php include('bare_navigation.html'); ?>
+   <script src="js/main.js"></script>
+   
 </body>
 </html>

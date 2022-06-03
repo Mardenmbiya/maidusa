@@ -53,3 +53,9 @@ function showmodal7(){
 function closemodal7(){
   document.getElementById("container_modd5").style.display="none";
 }
+function showmodal8(){
+  document.getElementById("container_modd6").style.display="block";
+}
+function closemodal8(){
+  document.getElementById("container_modd6").style.display="none";
+}

@@ -15,6 +15,15 @@
    <?php include('form_creation_magazine.php'); ?>
    <?php include('form_rediger_article.php'); ?>
 
-  
+  <script>
+      
+      var image =
+      document.getElementById("image1");
+      image.src="images/icons/mag (1).png";
+
+      var image2 =
+      document.getElementById("image2");
+      image2.src="images/icons/maison.png";
+  </script>
 </body>
 </html>
