@@ -73,3 +73,46 @@ toggle_btn.addEventListener('click', function() {
 }
 
 });
+
+
+
+function Nextmodal(){
+  document.getElementById("nextmod").style.display="flex"
+}
+function Nextmodal1(){
+  document.getElementById("nextmod1").style.display="flex"
+}
+function Backmodal1(){
+  document.getElementById("nextmod").style.display="none"
+}
+function Nextmodal2(){
+  document.getElementById("nextmod2").style.display="flex"
+}
+function Backmodal2(){
+  document.getElementById("nextmod1").style.display="none"
+}
+function Nextmodal3(){
+  document.getElementById("nextmod3").style.display="flex"
+}
+function Backmodal3(){
+  document.getElementById("nextmod2").style.display="none"
+}
+function Nextmodal4(){
+  document.getElementById("nextmod4").style.display="flex"
+}
+function Backmodal4(){
+  document.getElementById("nextmod3").style.display="none"
+}
+function Nextmodal5(){
+  document.getElementById("container_modd6").style.display="none"
+}
+function Backmodal5(){
+  document.getElementById("nextmod4").style.display="none"
+}
+
+function closemodal9(){
+  document.getElementById("container_cancel").style.display="block";
+}
+function Nextmodal6(){
+  document.getElementById("container_cancel").style.display="none"
+}

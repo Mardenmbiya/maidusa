@@ -20,7 +20,7 @@
     <div class="container_mag_acceuil2">
     Articles suggerés et articles des magazines aux quels vous êtes abonnés.
     </div>
-
+    
     <?php include('bare_navigation.html'); ?>
     <?php include('suggestion.html'); ?>
    <?php include('Afficheur_article.html'); ?>
