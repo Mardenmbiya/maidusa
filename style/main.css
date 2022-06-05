@@ -823,6 +823,7 @@ input, button,textarea:focus{outline: none;}
                width: 16px;
                margin-right: 7px;
                cursor: pointer;
+               font-size: ;
            }
            .cont_reaction2
            {
