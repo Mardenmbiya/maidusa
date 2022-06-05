@@ -833,7 +833,7 @@ input, button,textarea:focus{outline: none;}
                font-weight: 500;
                right: 2px;
                cursor: pointer;
-               
+               ''
            }
            .cont_reaction2 img
            {
