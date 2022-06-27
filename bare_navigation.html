@@ -7,36 +7,40 @@
     <title>Bare de navigation</title>
     <link rel="stylesheet" href="style/main.css">
     <link rel="stylesheet" href="style/responsive.css">
+    <link rel="stylesheet" href="images/bootstrap-icons/bootstrap-icons.css">
 </head>
 <body>
     <nav class="navigation_bar_container bg_color_2">
         <div class="container_logo"><img src="images/logo-2.png" alt=""></div>
         <div class="container_search">
             <div class="container_search_1">
-                <div class="container_search_icon"><img src="images/icons/search-free-icon-font.png" alt=""></div>
-                <div class="container_search_form" onclick="showModal2()">
-                    <form action="" >
+                <div class="container_search_form">
+                    <i class="bi bi-search fs-5" style="margin-right:5px ;"></i>
+                    <form action="">
+                       
                         <input type="search" placeholder="Recherche..." name=""  class="form_design" >
+                       
                     </form>
                 </div>
             </div>
         </div>
         <div class="container_icons">
-            <a href="Acceuil.php"><div class="container_icon_1"><img id="image2" src="images/icons/home-free-icon-font.png" alt=""></div></a>
-           <a href="Magazine.php"><div class="container_icon_1"><img id="image1" src="images/icons/mag (2).png" alt=""></div></a>
-           <a href="Business.php"><div class="container_icon_1"><img id="image3" src="images/icons/briefcase-free-icon-font.png" alt=""></div></a>
+            <a href="Acceuil.php"><div class="container_icon_1"><i class="bi bi-house-fill"></i><span>Acceuil</span></div></a>
+           <a href="Magazine.php"><div class="container_icon_1"><i class="bi bi-layout-text-window"></i><span>Magazine</span></div></a>
+           <a href="Business.php"><div class="container_icon_1"><i class="bi bi-briefcase"></i><span>Business</span></div></a>
            <a href="notification.html"><div class="container_icon_1">
             <div class="new_message_container" ></div>
-                 <img src="images/icons/bell-free-icon-font.png" alt="">
+                    <i class="bi bi-bell"></i><span>Notifications</span>
             </div></a>
-            <div class="container_icon_1"><img src="images/icons/envelope-free-icon-font2.png" alt=""></div>
+            <div class="container_icon_1"><i class="bi bi-chat-left-dots"></i><span>Messages</span></div>
           
         </div>
         <div class="container_icons_m" >
-            <div class="container_icons_mi" onclick="showModal()"><img src="images/icons/list-free-icon-font.png" alt=""></div>
+            <div class="container_icons_mi" onclick="showModal()"><i class="bi bi-list"></i><span>Menu</span></div>
         </div>
     </nav>
-    <nav class="container_menu_element" id="menuinfo">
+<nav class="container_menu_element_cont" id="menuinfo"> 
+    <nav class="container_menu_element " id="menuinfo1">
         <div class="container_menu_element_profil">
             <a href="profile.php"><div class="container_menu_element_profil_1">
                 <div class="container_profil_1"><img src="images/Captuddre.PNG" alt=""></div>
@@ -50,52 +54,42 @@
        
         <div class="container_menu_element_1">
             <span class="container_menu_icon">
-                <img src="images/icons/settings-free-icon-font.png" alt="">
+                <i class="bi bi-gear-fill"></i>
             </span>
             <a href="parametres.html"><span class="container_menu_titre">Paramètres</span></a>
         </div>
         <div class="container_menu_element_1">
-            <div class="container_menu_icon"><img src="images/icons/download-free-icon-font.png" alt=""></div>
+            <div class="container_menu_icon"><i class="bi bi-arrow-down-circle-fill"></i></div>
             <div class="container_menu_titre">Installer Android App</div>
         </div>
         <div class="container_menu_element_1">
-            <div class="container_menu_icon"><img src="images/icons/book-free-icon-font.png" alt=""></div>
+            <div class="container_menu_icon"><i class="bi bi-journals"></i></div>
             <div class="container_menu_titre">Bibliothèque Virtuelle</div>
         </div>
         <div class="container_menu_element_1">
-            <div class="container_menu_icon"><img src="images/icons/book-alt-free-icon-font (1).png" alt=""></div>
+            <div class="container_menu_icon"><i class="bi bi-book-fill"></i></div>
             <div class="container_menu_titre">Supergénie</div>
         </div>
         <div class="container_menu_element_1">
-            <div class="container_menu_icon"><img src="images/icons/marker-free-icon-font.png" alt=""></div>
+            <div class="container_menu_icon"><i class="bi bi-geo-alt-fill"></i></div>
             <div class="container_menu_titre">Géolocalisation</div>
         </div>
         <div class="container_menu_element_1">
-            <div class="container_menu_icon"><img src="images/icons/interrogation-free-icon-font.png" alt=""></div>
+            <div class="container_menu_icon"><i class="bi bi-question-circle-fill"></i></div>
             <div class="container_menu_titre">Aide</div>
         </div>
         <div class="container_menu_element_1">
-            <div class="container_menu_icon"><img src="images/icons/power-free-icon-font.png" alt=""></div>
+            <div class="container_menu_icon"><i class="bi bi-power"></i></div>
             <div class="container_menu_titre">Se déconnecter</div>
         </div>
         <div class="container_menu_element_1" id="theme-btn">
-            <div class="container_menu_icon"><img src="images/icons/moon-free-icon-font.png" alt=""></div>
-            <div class="container_menu_titre">Mode Sombre</div>
+            <div class="container_menu_icon"><i class="bi bi-toggle2-off"></i></div>
+            <div class="container_menu_titre">Mode sombre</div>
         </div>
 
     </nav>
-    <nav class="container_recherche" id="container_search">
-        <div class="container_recherche1">
-            <div class="container_search_form_show">
-                <div class="container_search_icon"><img src="images/icons/search-free-icon-font.png" alt=""></div>
-                <div class="container_search_form_show" onclick="showModal2()">
-                    <form action="">
-                        <input type="search" placeholder="Recherche..." name=""  id="focus"  class="form_design" >
-                    </form>
-                </div>
-                <div class="txt2" style="cursor: pointer;" onclick="closeModal()">Annuler</div>
-
-    </nav>
+</nav>
+    
     <script src="js/main.js">
 
 

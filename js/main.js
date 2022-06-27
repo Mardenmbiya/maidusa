@@ -2,13 +2,21 @@ function showModal(){
     var element =
     document.getElementById('menuinfo');
     element.classList.toggle("visible_modal");
+    
+
+}
+window.onclick = function(event) {
+  if (event.target != getElementById('menuinfo1')) {
+      menuinfo.style.display = "none";
+  }
+
+}
+function closeMenu(){
+  getElementById('menuinfo').style.display="none";
 
 }
 
-function showModal2(){
-  document.getElementById('container_search').style.display="block";
-  
-}
+
 function closeModal(){
   document.getElementById('container_search').style.display="none";
 }
@@ -64,6 +72,7 @@ function closemodal8(){
 var toggle_btn = document.getElementById('theme-btn');
 var body = document.getElementsByTagName('body')[0];
 var dark_theme_class = 'dark';
+
 toggle_btn.addEventListener('click', function() {
  if (body.classList.contains(dark_theme_class)) {
  body.classList.remove(dark_theme_class);
