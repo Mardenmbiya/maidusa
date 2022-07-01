@@ -1,19 +1,8 @@
 function showModal(){
-    var element =
-    document.getElementById('menuinfo');
-    element.classList.toggle("visible_modal");
-    
-
+  document.getElementById('menuinfo').style.display="block";
 }
-window.onclick = function(event) {
-  if (event.target != getElementById('menuinfo1')) {
-      menuinfo.style.display = "none";
-  }
-
-}
-function closeMenu(){
-  getElementById('menuinfo').style.display="none";
-
+function closeModalMenu(){
+  document.getElementById('menuinfo').style.display="none"
 }
 
 
