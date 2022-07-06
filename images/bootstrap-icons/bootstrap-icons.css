@@ -399,7 +399,7 @@ url("fonts/bootstrap-icons44df.woff?524846017b983fc8ded9325d94ed40f3") format("w
 .bi-chevron-compact-down::before { content: "\f279"; }
 .bi-chevron-compact-left::before { content: "\f27a"; }
 .bi-chevron-compact-right::before { content: "\f27b"; }
-.bi-chevron-compact-up::before { content: "\f27c"; }
+.bi-chevron-compact-up::before { content: "\f27c"; }g
 .bi-chevron-contract::before { content: "\f27d"; }
 .bi-chevron-double-down::before { content: "\f27e"; }
 .bi-chevron-double-left::before { content: "\f27f"; }

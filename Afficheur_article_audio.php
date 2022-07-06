@@ -1,15 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Afficheur Article</title>
-    <link rel="stylesheet" href="style/main.css">
-    <link rel="stylesheet" href="style/responsive.css">
-</head>
+
 <body>
-    <div class="cont_afficheur_article">
+    <div class="cont_afficheur_article border_general">
         <div class="cont_afficheur_description">
             <div class="titre_1">Message aux entrepreneurs</div>
             <div class="titre_2">Dans la vie pour entreprendre il faut prendre des risques importants...</div>
@@ -39,15 +30,15 @@
         <div class="cont_afficheur_reaction">
             <div class="cont_reaction1">
                <i class="bi bi-heart-fill"></i>
-                   150
+                   1,5k
             </div>
             <div class="cont_reaction1">
                
-                  200 Commentaires
+                  500 Commentaires
             </div>
             <div class="cont_reaction1">
                 <i class="bi bi-eye-fill"></i>
-                1020 Vues
+                2,3k Vues
             </div>
            
 

@@ -47,7 +47,7 @@
           </div>
        
         <div class="cont_mod2">
-            <span class="button_2" onclick="Backmodal1()">Retour</span>
+            <span class="button_3" onclick="Backmodal1()">Retour</span>
             <span class="button_1" onclick="Nextmodal1()">Suivant</span>
         </div>
     </div>
@@ -68,7 +68,7 @@
           </div>
        
         <div class="cont_mod2">
-            <span class="button_2" onclick="Backmodal2()">Retour</span>
+            <span class="button_3" onclick="Backmodal2()">Retour</span>
             <span class="button_1"  onclick="Nextmodal2()">Suivant</span>
         </div>
     </div>

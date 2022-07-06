@@ -1,20 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Afficheur Article</title>
-    <link rel="stylesheet" href="style/main.css">
-    <link rel="stylesheet" href="style/responsive.css">
-</head>
+
+
 <body>
-    <div class="cont_afficheur_article">
-        <div class="cont_afficheur_description">
+    <div class="cont_afficheur_article border_general">
+        <a href="article_complet.html"><div class="cont_afficheur_description">
             <div class="titre_1">Cercle Scientifique Math-info, une conférence, une équipe!</div>
          
             <div class="titre_2">Ce samedi 14 juin, le Cercle Scientifique Math-info a tenu une conférence sous le thème le jeune...voir plus</div>
-        </div>
+        </div></a>
        
         <div class="cont_afficheur_images">
             <img src="images/cercle.jpg" alt="">
@@ -42,11 +34,11 @@
         <div class="cont_afficheur_reaction">
             <div class="cont_reaction1">
                <i class="bi bi-heart-fill"></i>
-                   150
+                   130
             </div>
             <div class="cont_reaction1">
                
-                  200 Commentaires
+                  240 Commentaires
             </div>
             <div class="cont_reaction1">
                 <i class="bi bi-eye-fill"></i>

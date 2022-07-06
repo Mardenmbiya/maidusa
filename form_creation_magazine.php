@@ -1,6 +1,3 @@
-
-
-
 <nav class="container_modifier" id="container_modd4">
     <div class="container_modifier1">
         <span class="txt3 cont_mod_0">Créer un nouveau Magazine

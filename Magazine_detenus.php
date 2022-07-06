@@ -1,19 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Magazine_detenus</title>
-    <link rel="stylesheet" href="style/main.css">
-    <link rel="stylesheet" href="style/responsive.css">
-    <link rel="stylesheet" href="style/icomoon/style.css">
-</head>
 <body>
     <div class="container_mag_1">
         <div class="container_mag_11">
             <div class="button_1" onclick="showmodal6()">Créer un magazine</div>
-            <div class="button_2" onclick="showmodal7()">Rédiger un article</div>
+            <div class="button_3" onclick="showmodal7()">Rédiger un article</div>
         </div>
         <div class="container_mag_12">
             <div class="container_mag_121">

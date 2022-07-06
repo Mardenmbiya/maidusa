@@ -58,20 +58,6 @@ function closemodal8(){
 }
 
 
-var toggle_btn = document.getElementById('theme-btn');
-var body = document.getElementsByTagName('body')[0];
-var dark_theme_class = 'dark';
-
-toggle_btn.addEventListener('click', function() {
- if (body.classList.contains(dark_theme_class)) {
- body.classList.remove(dark_theme_class);
-}
- else {
- body.classList.add(dark_theme_class);
-}
-
-});
-
 
 
 function Nextmodal(){
@@ -114,3 +100,25 @@ function closemodal9(){
 function Nextmodal6(){
   document.getElementById("container_cancel").style.display="none"
 }
+
+
+
+// START: Dark mode
+function switcher () {
+  let currentstyle = document.getElementById('stylechanger').getAttribute('href').trim();
+  
+  if (currentstyle == ('style/main.css')){
+
+      document.getElementById('stylechanger').setAttribute('href', 'style/style.dark.css');
+  }
+  
+  else{
+
+      document.getElementById('stylechanger').setAttribute('href', 'style/main.css');
+
+  }
+   
+}
+
+
+// END: Dark mode

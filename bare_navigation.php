@@ -1,14 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bare de navigation</title>
-    <link rel="stylesheet" href="style/main.css">
-    <link rel="stylesheet" href="style/responsive.css">
-    <link rel="stylesheet" href="images/bootstrap-icons/bootstrap-icons.css">
-</head>
 <body>
     <nav class="navigation_bar_container bg_color_2">
         <div class="container_logo"><img src="images/logo-2.png" alt=""></div>
@@ -25,21 +14,21 @@
             </div>
         </div>
         <div class="container_icons">
-            <a href="Acceuil.php"><div class="container_icon_1"><i class="bi bi-house-fill"></i><span>Acceuil</span></div></a>
+            <a href="Acceuil.php"><div class="container_icon_1"><i class="bi bi-house-fill color_1"></i><span>Acceuil</span></div></a>
            <a href="Magazine.php"><div class="container_icon_1"><i class="bi bi-layout-text-window"></i><span>Magazine</span></div></a>
-           <a href="Business.php"><div class="container_icon_1"><i class="bi bi-briefcase"></i><span>Business</span></div></a>
+           <a href="Business.php"><div class="container_icon_1"><i class="bi bi-briefcase-fill"></i><span>Business</span></div></a>
            <a href="notification.html"><div class="container_icon_1">
             <div class="new_message_container" ></div>
-                    <i class="bi bi-bell"></i><span>Notifications</span>
+                    <i class="bi bi-bell-fill"></i><span>Notifications</span>
             </div></a>
-            <div class="container_icon_1"><i class="bi bi-chat-left-dots"></i><span>Messages</span></div>
+            <div class="container_icon_1"><i class="bi bi-chat-left-dots-fill"></i><span>Messages</span></div>
           
         </div>
         <div class="container_icons_m" >
             <div class="container_icons_mi" onclick="showModal()"><i class="bi bi-list"></i><span>Menu</span></div>
         </div>
     </nav>
-<nav class="container_menu_element_cont" id="menuinfo" onclick="closeModalMenu()"> 
+<nav class="container_menu_element_cont " id="menuinfo" onclick="closeModalMenu()"> 
     <nav class="container_menu_element">
         <div class="container_menu_element_profil">
             <a href="profile.php"><div class="container_menu_element_profil_1">
@@ -82,7 +71,7 @@
             <div class="container_menu_icon"><i class="bi bi-power"></i></div>
             <div class="container_menu_titre">Se déconnecter</div>
         </div>
-        <div class="container_menu_element_1" id="theme-btn">
+        <div class="container_menu_element_1" onclick="switcher()">
             <div class="container_menu_icon"><i class="bi bi-toggle2-off"></i></div>
             <div class="container_menu_titre">Mode sombre</div>
         </div>
@@ -90,11 +79,6 @@
     </nav>
 </nav>
     
-    <script src="js/main.js">
-
-
-       
-    </script>
-    
+   
 </body>
 </html>
