@@ -1,15 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login | Maidusa</title>
-    <link rel="stylesheet" href="style/style_dark.css">
-    <link rel="stylesheet" href="style/responsive.css">
-    <link rel="shortcut icon" href="images/logo-1.png" type="image/x-icon">
-</head>
+<?php include('base.php'); ?>
 <body>
+<nav class="navigation_bar_container bg_color_2">
+        <div class="container_back" onclick="history.back()">
+         <i class="bi bi-arrow-left"></i>
+
+        </div>
+        <div class="titre_page">
+           Connection
+        </div>
+    </nav>
     <div class="container_login_1">
         <img src="images/img_5.png" alt="">
     </div>
@@ -30,8 +29,8 @@
                         <button class="button_1">Envoyer</button>
                     </div>
                     <div class="cont_log2">
-                        <a href="mdp_oublier.html"><div class="txt3 hover_all">Mot de passe oublié?</div></a>
-                        <a href="sign_up.html"><div class="txt3 color_1 hover_all">Pas de compte? S'inscrire</div></a>
+                        <a href="mdp_oublier.php"><div class="txt3 hover_all">Mot de passe oublié?</div></a>
+                        <a href="sign_up.php"><div class="txt3 color_1 hover_all">Pas de compte? S'inscrire</div></a>
                     </div>
                     
                </div>

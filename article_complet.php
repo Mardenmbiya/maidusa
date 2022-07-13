@@ -1,16 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Article complet</title>
-    <link rel="stylesheet" href="style/main.css">
-    <link rel="stylesheet" href="style/responsive.css">
-    <link rel="shortcut icon" href="images/logo-1.png" type="image/x-icon">
-    <link rel="stylesheet" href="images/bootstrap-icons/bootstrap-icons.css">
-</head>
-<body>
+<?php include('base.php'); ?>
     <nav class="navigation_bar_container bg_color_2">
         <div class="container_back" onclick="history.back()">
          <i class="bi bi-arrow-left"></i>

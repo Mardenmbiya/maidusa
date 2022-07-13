@@ -2,7 +2,7 @@
 
 <body>
     <div class="cont_afficheur_article border_general">
-        <a href="article_complet.html"><div class="cont_afficheur_description">
+        <a href="article_complet.php"><div class="cont_afficheur_description">
             <div class="titre_1">Cercle Scientifique Math-info, une conférence, une équipe!</div>
          
             <div class="titre_2">Ce samedi 14 juin, le Cercle Scientifique Math-info a tenu une conférence sous le thème le jeune...voir plus</div>
@@ -48,8 +48,8 @@
 
         </div>
         <div class="cont_afficheur_reaction_react">
-            <div class="cont_reaction1_react">
-               <i class="bi bi-heart"></i>
+            <div class="cont_reaction1_react" >
+               <i onclick="liked(this)" class="bi bi-heart"></i>
                   
             </div>
             <div class="cont_reaction1_react">

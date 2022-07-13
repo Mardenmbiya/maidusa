@@ -1,3 +1,6 @@
+let storage = window.localStorage;
+
+
 function showModal(){
   document.getElementById('menuinfo').style.display="block";
 }
@@ -44,22 +47,12 @@ function showmodal6(){
 function closemodal6(){
   document.getElementById("container_modd4").style.display="none";
 }
-function showmodal7(){
-  document.getElementById("container_modd5").style.display="block";
-}
-function closemodal7(){
-  document.getElementById("container_modd5").style.display="none";
-}
 function showmodal8(){
   document.getElementById("container_modd6").style.display="block";
 }
 function closemodal8(){
   document.getElementById("container_modd6").style.display="none";
 }
-
-
-
-
 function Nextmodal(){
   document.getElementById("nextmod").style.display="flex"
 }
@@ -103,22 +96,45 @@ function Nextmodal6(){
 
 
 
+
+
 // START: Dark mode
+
+if(storage.getItem("style")!=undefined){
+  document.getElementById('stylechanger').setAttribute('href', storage.getItem('style'));
+}else{
+  storage.setItem("style", 'style/main.css'); // Save to storage
+
+}
+
 function switcher () {
+
+
   let currentstyle = document.getElementById('stylechanger').getAttribute('href').trim();
   
   if (currentstyle == ('style/main.css')){
 
       document.getElementById('stylechanger').setAttribute('href', 'style/style.dark.css');
+      storage.setItem("style", 'style/style.dark.css');
   }
   
   else{
 
       document.getElementById('stylechanger').setAttribute('href', 'style/main.css');
-
+      storage.setItem("style", 'style/main.css');
   }
    
 }
 
 
 // END: Dark mode
+
+
+// START: Like action
+
+
+
+function liked(x){
+  x.classList.toggle("bi-heart-fill");
+  
+}

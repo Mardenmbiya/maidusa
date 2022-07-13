@@ -47,14 +47,9 @@
 
 </div>
 <script>
-      
-      var image =
-      document.getElementById("image3");
-      image.src="images/icons/busi.png";
-
-      var image2 =
-      document.getElementById("image2");
-      image2.src="images/icons/maison.png";
+      document.getElementById('bus').style.color = '#416cb4';
+     
+     
   </script>
 </body>
 </html>

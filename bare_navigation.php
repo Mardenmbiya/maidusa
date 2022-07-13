@@ -4,7 +4,7 @@
         <div class="container_search">
             <div class="container_search_1">
                 <div class="container_search_form">
-                    <i class="bi bi-search fs-5" style="margin-right:5px ;"></i>
+                    <i class="bi bi-search fs-5" style="margin-right:5px ; cursor: pointer;"></i>
                     <form action="">
                        
                         <input type="search" placeholder="Recherche..." name=""  class="form_design" >
@@ -14,14 +14,17 @@
             </div>
         </div>
         <div class="container_icons">
-            <a href="Acceuil.php"><div class="container_icon_1"><i class="bi bi-house-fill color_1"></i><span>Acceuil</span></div></a>
-           <a href="Magazine.php"><div class="container_icon_1"><i class="bi bi-layout-text-window"></i><span>Magazine</span></div></a>
-           <a href="Business.php"><div class="container_icon_1"><i class="bi bi-briefcase-fill"></i><span>Business</span></div></a>
+            <a href="Acceuil.php"><div class="container_icon_1"><i id="home" class="bi bi-house-fill"></i id="home1"><span>Acceuil</span></div></a>
+           <a href="Magazine.php"><div class="container_icon_1"><i id="mag" class="bi bi-layout-text-window"></i><span id="mag">Magazine</span></div></a>
+           <a href="Business.php"><div class="container_icon_1"><i id="bus" class="bi bi-briefcase-fill"></i><span id="bus1">Business</span></div></a>
            <a href="notification.html"><div class="container_icon_1">
             <div class="new_message_container" ></div>
                     <i class="bi bi-bell-fill"></i><span>Notifications</span>
             </div></a>
-            <div class="container_icon_1"><i class="bi bi-chat-left-dots-fill"></i><span>Messages</span></div>
+
+            <a href="messages.php"><div class="container_icon_1">
+                <i class="bi bi-chat-left-dots-fill"></i><span>Messages</span></div>
+            </a>
           
         </div>
         <div class="container_icons_m" >
@@ -37,16 +40,16 @@
             <div class="container_menu_element_profil_2">
                 <div class="container_name_1">Gloire Kafwalubi</div>
                 <div class="container_name_2">Voir votre profile</div>
-            </div></a>
+            </div></a>                                                                      
 
         </div>
        
-        <div class="container_menu_element_1">
+<a href="parametres.html"><div class="container_menu_element_1">
             <span class="container_menu_icon">
                 <i class="bi bi-gear-fill"></i>
             </span>
-            <a href="parametres.html"><span class="container_menu_titre">Paramètres</span></a>
-        </div>
+            <span class="container_menu_titre">Paramètres</span>
+        </div></a>
         <div class="container_menu_element_1">
             <div class="container_menu_icon"><i class="bi bi-arrow-down-circle-fill"></i></div>
             <div class="container_menu_titre">Installer Android App</div>

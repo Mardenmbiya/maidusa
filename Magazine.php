@@ -5,10 +5,12 @@
    <?php include('Afficheur_article.php'); ?>
    <?php include('Afficheur_article_audio.php'); ?>
    <?php include('form_creation_magazine.php'); ?>
-   <?php include('form_rediger_article.php'); ?>
+
 
   <script>
-      
+        document.getElementById('mag').style.color = '#416cb4';
+        document.getElementById('mag1').style.color = '#416cb4';
+       
     
    
   </script>
