@@ -19,7 +19,7 @@
                <span class="txt4">Lecrae Moore</span>
                <span class="txt5">New message here</span>
             
-            </div>
+            </div> 
        </div></a>
        
 
