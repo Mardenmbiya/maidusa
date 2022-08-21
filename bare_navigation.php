@@ -1,36 +1,52 @@
-<body>
+
     <nav class="navigation_bar_container bg_color_2">
+        <div class="navigation_bar_container_int">
         <div class="container_logo"><img src="images/logo-2.png" alt=""></div>
-        <div class="container_search">
-            <div class="container_search_1">
-                <div class="container_search_form">
-                    <i class="bi bi-search fs-5" style="margin-right:5px ; cursor: pointer;"></i>
-                    <form action="">
+        
+                    <form action="" class="container_search_1">
                        
-                        <input type="search" placeholder="Recherche..." name=""  class="form_design" >
+                        <span class="bi bi-search fs-5" ></span>
+                       <input type="search" placeholder="Recherche..." name=""  class="form_design" id="rech">
                        
                     </form>
-                </div>
-            </div>
-        </div>
+
+           
         <div class="container_icons">
-            <a href="Acceuil.php"><div class="container_icon_1"><i id="home" class="bi bi-house-fill"></i id="home1"><span>Acceuil</span></div></a>
-           <a href="Magazine.php"><div class="container_icon_1"><i id="mag" class="bi bi-layout-text-window"></i><span id="mag">Magazine</span></div></a>
-           <a href="Business.php"><div class="container_icon_1"><i id="bus" class="bi bi-briefcase-fill"></i><span id="bus1">Business</span></div></a>
-           <a href="notification.html"><div class="container_icon_1">
+            <a href="Acceuil.php" class="container_icon_1">
+                <i id="home" class="bi bi-house-fill"></i id="home1">
+                    <span>Acceuil</span>
+            </a>
+
+            <a href="Magazine.php" class="container_icon_1">
+                <i id="mag" class="bi bi-collection-fill"></i>
+                <span id="mag">Magazine</span>
+            </a>
+
+           <a href="Business.php" class="container_icon_1"><i id="bus" class="bi bi-briefcase-fill"></i>
+            <span id="bus1">Business</span>
+           </a>
+
+           <a href="notification.php" class="container_icon_1" >
             <div class="new_message_container" ></div>
                     <i class="bi bi-bell-fill"></i><span>Notifications</span>
-            </div></a>
+            </a>
 
-            <a href="messages.php"><div class="container_icon_1">
-                <i class="bi bi-chat-left-dots-fill"></i><span>Messages</span></div>
+            <a href="messages.php" class="container_icon_1">
+                <i class="bi bi-chat-left-dots-fill"></i><span>Messages</span>
             </a>
           
         </div>
+
+
         <div class="container_icons_m" >
-            <div class="container_icons_mi" onclick="showModal()"><i class="bi bi-list"></i><span>Menu</span></div>
+            <div class="container_icons_mi" onclick="showModal()"><i class="bi bi-list"></i>
+                <span class="visible_main">Menu</span>
+            </div>
+        </div>
         </div>
     </nav>
+
+
 <nav class="container_menu_element_cont " id="menuinfo" onclick="closeModalMenu()"> 
     <nav class="container_menu_element">
         <div class="container_menu_element_profil">
@@ -83,5 +99,6 @@
 </nav>
     
    
-</body>
-</html>
+<div id="page_recherche" class="page_recherche">
+    
+</div>

@@ -1,5 +1,4 @@
 
-<body>
     <div class="container_suggestion border_general">
         <div class="container_sugg_1 txt3">
             Suggestions des magazines
@@ -44,5 +43,3 @@
            </div>
        </div>
         </div>
-</body>
-</html>

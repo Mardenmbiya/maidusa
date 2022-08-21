@@ -95,8 +95,28 @@ function Nextmodal6(){
 }
 
 
+function showmodal(nom_id){
+  var conteneur = document.getElementById(nom_id);
+ if (conteneur.style.display = "none") {
+          conteneur.style.display = "inline-block";
+ }else {
+          conteneur.style.display = "none";
+ }
 
+}
 
+function close_modal(nom_id){
+  document.getElementById(nom_id).style.display="none";
+}
+
+function cacheur(){
+  var cont = document.getElementById("mag");
+  cont.addEventListener("click", function(){  
+      document.getElementById("magazine_show").style.display="none";
+
+      })
+  
+}
 
 // START: Dark mode
 
@@ -137,4 +157,11 @@ function switcher () {
 function liked(x){
   x.classList.toggle("bi-heart-fill");
   
+}
+
+var recherche = getElementById("rech");
+    recherche.addEventListener("click" affiche_recherche());
+
+function affiche_recherche(){
+  getElementById("page_recherche").style.display = inlineBlock;
 }

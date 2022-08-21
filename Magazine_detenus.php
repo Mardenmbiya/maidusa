@@ -1,9 +1,11 @@
 <body>
     <div class="container_mag_1">
         <div class="container_mag_11">
-            <div class="button_1" onclick="showmodal6()">Créer un magazine</div>
-            <div class="button_3" onclick="showmodal7()">Rédiger un article</div>
+            <div class="button_1" onclick="showmodal6()">Créer un nouveau magazine</div>
+            
         </div>
+       
+    
         <div class="container_mag_12">
             <div class="container_mag_121">
                 <img src="images/bethany.jpg" alt="">
@@ -22,14 +24,9 @@
             </div>
         </div>
     </div>
-    <div class="container_mag_2">
-        <img src="images/icons/magic-wand-free-icon-font.png" alt="">
-        Créer des magazines pour publier des articles de votre domaine. 
-        Publiez également des vidéos YouTube, partager votre passion, faites connaitre 
-        votre entreprise et vulgariser la science à travers Maidusa Network.
-    </div>
-    <div class="container_mag_3">
-        Articles suggérés et articles des magazines aux quels vous êtes abonnés.
+    
+    <div class="post_text cont_profil_mag_txt">
+       Magazines aux quels vous êtes abonnés.
     </div>
     
     

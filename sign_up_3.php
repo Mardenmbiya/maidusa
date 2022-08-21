@@ -1,15 +1,6 @@
 <?php include('base.php'); ?>
-
-<body>
-    <nav class="navigation_bar_container bg_color_2">
-        <div class="container_back" onclick="history.back()">
-         <i class="bi bi-arrow-left"></i>
-
-        </div>
-        <div class="titre_page">
-           Inscription
-        </div>
-    </nav>
+<?php include("nave_bar_single.php") ?>
+ <div class="marge_generale"></div>
     <div class="container_login_2" >
         <div class="container_login_21" >
                 <div class="container_login_211">

@@ -8,6 +8,7 @@
      <!-- <link rel="stylesheet" href="style/style.dark.css"> -->
     <link rel="stylesheet" href="style/responsive.css">
     <link rel="stylesheet" href="images/bootstrap-icons/bootstrap-icons.css">
+    <link rel="stylesheet" href="style/icomoon/style.css">
     <link rel="shortcut icon" href="images/logo-1.png" type="image/x-icon">
     <script src="js/main.js">
     </script>

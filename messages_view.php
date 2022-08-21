@@ -1,13 +1,7 @@
 <?php include('base.php'); ?>
-    <nav class="navigation_bar_container bg_color_2">
-        <div class="container_back" onclick="history.back()">
-         <i class="bi bi-arrow-left"></i>
-
-        </div>
-        <div class="titre_page">
-         Messages
-        </div>
-    </nav>
+<?php include("nave_bar_single.php") ?>
+ <div class="marge_generale"></div>
+   <div class="marge_generale"></div>
 
     <div class="cont_afficheur_message border_general">
       

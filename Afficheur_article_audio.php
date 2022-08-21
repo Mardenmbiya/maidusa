@@ -1,13 +1,16 @@
 
-<body>
     <div class="cont_afficheur_article border_general">
+      <div class="sous_container_1">
         <div class="cont_afficheur_description">
-            <div class="titre_1">Message aux entrepreneurs</div>
+            <div class="titre_1 marge_bas">Message aux entrepreneurs</div>
             <div class="titre_2">Dans la vie pour entreprendre il faut prendre des risques importants...</div>
+        </div>
         </div>
         <div class="cont_audio_article">
             <audio src="Life_could_be_a_dream.mp3" controls></audio>
         </div>
+
+        
         <div class="cont_afficheur_art_profil">
             <div class="cont_afficheur_profil">
                 <img src="images/maidusa.png" alt="">
@@ -25,7 +28,7 @@
                 
             </button>
         </div>
-       
+       <div class="sous_container">
         
         <div class="cont_afficheur_reaction">
             <div class="cont_reaction1">
@@ -63,7 +66,7 @@
             </div>
 
         </div>
-        
+        </div>        
     </div>
 
     <script type="text/javascript">
@@ -78,5 +81,3 @@
            }
         }
     </script>
-</body>
-</html>

@@ -1,17 +1,13 @@
 <?php include('base.php'); ?>
-    <nav class="navigation_bar_container bg_color_2">
-        <div class="container_back" onclick="history.back()">
-         <i class="bi bi-arrow-left"></i>
+<?php include("nave_bar_single.php") ?>
+ <div class="marge_generale"></div>
+   <div class="marge_generale"></div>
 
-        </div>
-        <div class="titre_page">
-         Messages
-        </div>
-    </nav>
-
+   
     <div class="cont_afficheur_article2 border_general">
        <div class="txt3">Récentes conversations</div>
-       <a href="messages_view.php"><div class="container_message">
+       <a href="messages_view.php">
+        <div class="container_message">
            <div class="container_message_1">
                 <img src="images/lecrae.jpg" alt="">
            </div>
@@ -20,7 +16,8 @@
                <span class="txt5">New message here</span>
             
             </div> 
-       </div></a>
+       </div>
+     </a>
        
 
      

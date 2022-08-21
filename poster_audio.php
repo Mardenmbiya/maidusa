@@ -1,18 +1,7 @@
 
 
-<?php include('base.php'); ?>
-<nav class="navigation_bar_container bg_color_2">
-    <div class="container_back" onclick="history.back()">
-         <i class="bi bi-arrow-left"></i>
 
-        </div>
-        <div class="titre_page">
-          Poster un audio
-    </div>
-</nav>
-
-
-    <div class="container_rediger border_general">
+    <div class="container_rediger border_general" id="posteur_audio" style="display: none;">
         <span class="txt3 cont_mod_0">Poster un audio
         <i class="icon-close2" onclick="closemodal7()"></i>
         </span>
